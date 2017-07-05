@@ -70,4 +70,4 @@ sudo ufw allow 80/tcp
 sudo ufw allow 123/udp
 sudo ufw enable 
 
-# in this repository the key file is exist that called "linux_file_key"
+# in this repository the key file is exist that called "linux_file_key.pub"
