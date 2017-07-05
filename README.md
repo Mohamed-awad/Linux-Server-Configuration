@@ -53,6 +53,7 @@ http://90.198.196.104.bc.googleusercontent.com
 # Update all currently installed packages
 
 sudo apt-get update
+
 sudo apt-get upgrade
 
 # Change the SSH port from 22 to 2200
