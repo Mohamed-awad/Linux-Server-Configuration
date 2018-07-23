@@ -66,8 +66,11 @@ sudo apt-get upgrade
 Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
 
 sudo ufw allow 2200/tcp
+
 sudo ufw allow 80/tcp
+
 sudo ufw allow 123/udp
+
 sudo ufw enable 
 
 # in this repository the key file is exist that called "linux_file_key.pub"
